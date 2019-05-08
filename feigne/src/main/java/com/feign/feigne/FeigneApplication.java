@@ -7,6 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients("com.feign.feigne.client")
+
 public class FeigneApplication {
 
     public static void main(String[] args) {
